@@ -179,7 +179,7 @@ const LogoDist = () => {
               opacity: 1;
             }
             100% { 
-              transform: rotate(180deg) scale(0.01);
+              transform: rotate(90deg) scale(0.01);
               opacity: 0;
             }
           }
@@ -190,12 +190,8 @@ const LogoDist = () => {
               opacity: 0;
             }
             50% {
-              transform: rotate(180deg) scale(0.5);
+              transform: rotate(90deg) scale(1);
               opacity: 0.5;
-            }
-            100% { 
-              transform: rotate(360deg) scale(1);
-              opacity: 1;
             }
           }
 
